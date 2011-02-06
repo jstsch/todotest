@@ -1,0 +1,5 @@
+li
+	form(method="post", action="/todo/delete")
+		input(type="submit", value="DONE")
+		input(type="hidden", name="id", value: todo.id)
+		| #{todo.description}

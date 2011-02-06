@@ -1,0 +1,11 @@
+!!! 5
+html(lang="en")
+	head
+		title node/expressjs/redbean todo
+	body
+		h1 NodeExpressRedBeanTodo
+		!= body
+		form(method="post", action="/todo/create")
+			label todo
+			input(type="text", name="dscr")
+			input(type="submit", value="add to list")

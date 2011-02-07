@@ -1,1 +1,3 @@
 Just a simple (rough) experiment using NodeJS, ExpressJS and RedBean. Basically a server-side javascript port of the BeanCan todo example (http://redbeanphp.com/#/BeanCan_Server).
+
+Also a simple (even rougher) PHP webserver. It uses BeanCan to parse the JSON requests and keeps PHP up. This prevents PHP to parse RedBean (7500 lines) for every HTTP request. Saves 17ms latency on my setup (from 24ms to 7ms per request).
